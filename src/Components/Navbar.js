@@ -24,7 +24,9 @@ export default function Navbar() {
               Contact
             </Link>
           </li>
-          <a href="http://localhost:3000"  rel="noreferrer" target="_blank">Log in</a> 
+          <a href="http://localhost:3000" rel="noreferrer" target="_blank">
+            Log in
+          </a>
         </ul>
       </nav>
     </header>
