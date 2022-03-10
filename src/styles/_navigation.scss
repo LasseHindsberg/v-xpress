@@ -1,0 +1,31 @@
+.navigation {
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+  text-align: center;
+  align-items: center;
+  height: 50px;
+  position: fixed;
+  background-color: rgba($bgColor, 0.5);
+  width: 100%;
+  padding-top: 1px;
+  margin-top: -1px;
+  &__logo {
+    width: 150px;
+  }
+
+  &__listItem {
+    font-weight: 600;
+  }
+
+  // Transform text when hovered on
+  a {
+    color: $fontColor;
+    transition: all 200ms;
+    text-decoration: none;
+  }
+  &__listItem a:hover {
+    color: $primary;
+    font-size: 1.1em;
+  }
+}

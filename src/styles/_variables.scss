@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;600;700;800;900&display=swap');
+
+$fontStack: Raleway,
+Helvetica,
+Verdana,
+Arial,
+sans-serif;
+        
+$fontSize: calc(14px + (21 - 14) * (100vw - 412px) / (1920 - 412));
+
+
+// font size variables
+$header: 3em;
+$subheader: 2.5em;
+$icon: 2.5em;
+$title: 1.5em;
+$body: 1em;
+
+// color variables
+$primary: #BC04BF;
+$secondary: #F22294;
+$bgColor: #151426;
+$fontColor: #dfdfdf;
+
+// /* Color Theme Swatches in Hex */
+// $WEWORK™-Members-Birthday.-Content-Design.-1-hex: #F22294;
+// $WEWORK™-Members-Birthday.-Content-Design.-3-hex: #BC04BF;
+// $WEWORK™-Members-Birthday.-Content-Design.-4-hex: #151426;
+
+
+// $WEWORK™-Members-Birthday.-Content-Design.-2-hex: #EE05F2;
+// $WEWORK™-Members-Birthday.-Content-Design.-5-hex: #04D9C4;

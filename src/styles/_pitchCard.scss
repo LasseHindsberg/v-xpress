@@ -1,0 +1,31 @@
+.pitchCard{
+        width: 250px;
+        padding: 50px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        &__icon {
+                display: flex;
+                width: 75px;
+                height: 75px;
+                border-radius: 100%;
+                background-color: rgba($primary, 0.1);
+                font-size: $icon;
+                margin: auto;
+                justify-content: center;
+                align-items: center;
+                color: $fontColor;
+        }
+
+        &__header {
+                font-weight: 400;
+                font-size: 1.5em;
+        }
+        &__body {
+                font-weight: 200;
+                font-size: 1em;
+        }
+}

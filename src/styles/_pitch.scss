@@ -1,0 +1,19 @@
+.pitch {
+        text-align: center;
+        
+        &__header {
+                font-weight: 700;
+                font-size: 2.5em;
+        }
+        &__subheader {
+                font-weight: 300;
+                font-size: $title;
+        }
+        &__cardContainer {
+                display: flex;
+                width: 80%;
+                margin: 0 auto;
+                justify-content: center;
+                align-items: flex-start;
+        }
+}

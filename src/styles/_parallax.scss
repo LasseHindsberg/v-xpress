@@ -1,0 +1,29 @@
+.parallax {
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, $bgColor 100%),
+    url(../images/pitchImg.jpg);
+  height: 100vh;
+  // background-attachment: fixed;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  // mix-blend-mode: normal;
+
+  &__hero {
+    margin: 250px 250px;
+    position: absolute;
+    width: 80%;
+  }
+  &__upper {
+    font-size: 36px;
+    font-weight: 500;
+    font-style: italic;
+    margin: 5px;
+  }
+
+  &__lower {
+    margin: 25px 0;
+    font-size: 4.5em;
+    font-weight: 900;
+    letter-spacing: 0.05em;
+  }
+}
