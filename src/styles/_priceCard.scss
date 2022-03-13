@@ -1,0 +1,41 @@
+.priceCard {
+  background-color: rgba($secondary, 0.1);
+  text-align: center;
+  min-width: 26%;
+  max-width: 26%;
+  min-height: 350px;
+  max-height: 400px;
+  padding: 15px;
+  margin: 15px;
+  display: flex;
+  flex-direction: column;
+
+  &__header {
+    font-size: $body;
+    font-style: italic;
+    font-weight: 200;
+  }
+  &__price {
+    font-size: $subheader;
+    font-weight: 700;
+    margin: 0px;
+  }
+  &__subscription {
+    font-size: 0.8em;
+    margin: 0 0 15px 0;
+    font-weight: 100;
+  }
+  &__benefits {
+    font-size: $body;
+    margin: 5px;
+  }
+  &__benefitsList {
+    grid-area: "list";
+    list-style-type: circle;
+    text-align: left;
+  }
+  &__offerBtn a{
+    text-decoration: none;
+    color: $fontColor;
+  }
+}

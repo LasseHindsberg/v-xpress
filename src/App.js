@@ -28,11 +28,15 @@ export default function App() {
       success: {
         main: "#0FBF5C",
       },
+    type: 'dark',
+    background: {
+    paper: "#151426"
     },
     typography: {
       fontFamily: "Raleway",
     },
-  });
+  }
+});
 
   return (
     <div className="App">
