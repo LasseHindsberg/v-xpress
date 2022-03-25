@@ -1,6 +1,5 @@
 import { Accordion, AccordionSummary, AccordionDetails, Typography } from "@mui/material";
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
-import { color } from "@mui/system";
 export default function FAQ() {
 
     return (

@@ -2,7 +2,6 @@ import "./App.scss";
 import { Router } from "@reach/router";
 import { ThemeProvider, createTheme } from "@mui/material/styles";
 
-import WelcomePage from "./views/WelcomePage";
 import HomePage from "./views/HomePage";
 
 export default function App() {
