@@ -12,7 +12,8 @@
                 width: 75px;
                 height: 75px;
                 border-radius: 100%;
-                background-color: rgba($primary, 0.1);
+                // background-color: rgba($primary, 0.1);
+                background-color: $hightlightColor;
                 font-size: $icon;
                 margin: auto;
                 justify-content: center;

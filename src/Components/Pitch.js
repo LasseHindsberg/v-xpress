@@ -9,7 +9,7 @@ export default function Pitch() {
     <article className="pitch">
       <h2 className="pitch__header">Why we are the best wingman</h2>
       <h3 className="pitch__subheader">
-        All the reasons vXpress can help you get great gear - fast and secure
+        All the reasons v-Xpress can help you get great gear - fast and secure
       </h3>
 
       <section className="pitch__cardContainer">

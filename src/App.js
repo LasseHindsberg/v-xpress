@@ -30,7 +30,7 @@ export default function App() {
       },
     type: 'dark',
     background: {
-    paper: "#151426"
+    paper: "#1d1c35"
     },
     typography: {
       fontFamily: "Raleway",
@@ -42,8 +42,7 @@ export default function App() {
     <div className="App">
       <ThemeProvider theme={theme}>
         <Router>
-          <WelcomePage default path="/" />
-            <HomePage path="/home" />
+            <HomePage default path="/home" />
         </Router>
       </ThemeProvider>
     </div>

@@ -1,41 +1,74 @@
 .priceCard {
-  background-color: rgba($secondary, 0.1);
+  // background-color: rgba($secondary, 0.03);
+  background-color: $hightlightColor;
+  border-radius: 20px;
   text-align: center;
   min-width: 26%;
   max-width: 26%;
-  min-height: 350px;
-  max-height: 400px;
+  height: 550px;
   padding: 15px;
   margin: 15px;
-  display: flex;
-  flex-direction: column;
+  // display: flex;
+  // flex-direction: column;
+
+  display: grid;
+  grid-template-rows: repeat(11, 1fr);
+  grid-template-areas:
+  'subscriptionType'
+  'price'
+  'subscription'
+  'benefits'
+  'benefitsList'
+  '.'
+  '.'
+  '.'
+  '.'
+  '.'
+  'readMore'
+  ;
 
   &__header {
+    grid-area: subscriptionType;
+
     font-size: $body;
     font-style: italic;
     font-weight: 200;
   }
   &__price {
+    grid-area: price;
+    
     font-size: $subheader;
     font-weight: 700;
     margin: 0px;
   }
   &__subscription {
+    grid-area: subscription;
+
     font-size: 0.8em;
     margin: 0 0 15px 0;
     font-weight: 100;
   }
   &__benefits {
+    grid-area: benefits;
+
     font-size: $body;
     margin: 5px;
   }
   &__benefitsList {
-    grid-area: "list";
+    grid-area: benefitsList;
     list-style-type: circle;
     text-align: left;
   }
-  &__offerBtn a{
-    text-decoration: none;
+  &__readMore {
+    grid-area: readMore;
+  }
+  &__readMore a{
+
     color: $fontColor;
+    text-decoration: none;
+  }
+  &__readMore::hover a {
+    color: $primary;
+
   }
 }

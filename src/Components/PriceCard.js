@@ -1,4 +1,4 @@
-import { Button} from "@mui/material";
+import { Button } from "@mui/material";
 
 import { Link } from "@reach/router";
 
@@ -12,7 +12,6 @@ export default function PriceCard({ title, price, subscription, serviceFee, trad
                 <p className="priceCard__subscription">Pr/Md</p>
                 : null
             }
-            <div className="priceCard__body">
                 <h4 className="priceCard__benefits">Benefits</h4>
                 <ul className="priceCard__benefitsList">
                     {serviceFee ?
@@ -28,10 +27,11 @@ export default function PriceCard({ title, price, subscription, serviceFee, trad
                         null
                     }
                 </ul>
-                <Link classname="priceCard__offerBtn" to="/offers">
-                    <Button variant="outlined" >Read More</Button>
-                </Link>
+                <div className="priceCard__readMore">
+                    <Button variant="outlined" color="info">
+                        <Link to="/offers">Read More</Link>
+                    </Button>
+                </div>
             </div>
-        </div>
     )
 }
